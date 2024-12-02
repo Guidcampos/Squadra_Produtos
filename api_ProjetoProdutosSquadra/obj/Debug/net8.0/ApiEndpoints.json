@@ -1,0 +1,133 @@
+[
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.CategoriaController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Categoria/Cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "api_ProjetoProdutosSquadra.Domains.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.CategoriaController",
+    "Method": "Deletar",
+    "RelativePath": "api/Categoria/Deletar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.CategoriaController",
+    "Method": "Listar",
+    "RelativePath": "api/Categoria/ListarTodas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.ProdutosController",
+    "Method": "AlterarEstoque",
+    "RelativePath": "api/Produtos/AlterarEstoque/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novaQuantidade",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.ProdutosController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Produtos/BuscarID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.ProdutosController",
+    "Method": "CadastrarProduto",
+    "RelativePath": "api/Produtos/CadastrarProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "api_ProjetoProdutosSquadra.Domains.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.ProdutosController",
+    "Method": "DeletarProduto",
+    "RelativePath": "api/Produtos/DeletarProduto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.ProdutosController",
+    "Method": "ListarEmEstoque",
+    "RelativePath": "api/Produtos/ListarEstoque",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.ProdutosController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/Produtos/ListarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
