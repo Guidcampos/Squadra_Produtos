@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.AuthController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/Auth/ListarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_ProjetoProdutosSquadra.Controllers.AuthController",
+    "Method": "Logar",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "api_ProjetoProdutosSquadra.ViewModels.UsuarioLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "api_ProjetoProdutosSquadra.Controllers.CategoriaController",
     "Method": "Cadastrar",
     "RelativePath": "api/Categoria/Cadastrar",
