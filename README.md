@@ -4,14 +4,14 @@
 
 ## Sumário  
 1. [Descrição do Desafio](#descri%C3%A7%C3%A3o-do-desafio)
-2. [Como rodar o projeto](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#como-rodar-o-projeto)
-3. [Banco de Dados](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#banco-de-dados)
-4. [Endpoints](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#endpoints)
-   - [Auth](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#auth)
-   - [Categorias](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#categorias)  
-   - [Produtos](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#produtos)
-5. [Exemplos de Requisição](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#exemplos-de-requisi%C3%A7%C3%A3o)
-6. [Tecnologias Utilizadas](README.md#6-tecnologias-utilizadas)
+2. [Como rodar o projeto](#como-rodar-o-projeto)
+3. [Banco de Dados](#banco-de-dados)
+4. [Endpoints](#endpoints)
+   - [Auth](#auth)
+   - [Categorias](#categorias)  
+   - [Produtos](#produtos)
+5. [Exemplos de Requisição](#exemplos-de-requisi%C3%A7%C3%A3o)
+6. [Tecnologias Utilizadas](#6-tecnologias-utilizadas)
 7. [Agradecimentos](#agradecimentos)   
 
 ---
