@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api_ProjetoProdutosSquadra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73fe4a0f4a0e9b343ba9e9d839293199409bd678")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db069fcc39e2d51bc7d774055d01abcce609dc7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("api_ProjetoProdutosSquadra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api_ProjetoProdutosSquadra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
