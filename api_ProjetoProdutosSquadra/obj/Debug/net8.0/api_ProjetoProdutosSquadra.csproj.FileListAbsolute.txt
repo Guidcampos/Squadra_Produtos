@@ -172,3 +172,5 @@ C:\Users\guilh\Desktop\Squadra_Produtos\api_ProjetoProdutosSquadra\bin\Debug\net
 C:\Users\guilh\Desktop\Squadra_Produtos\api_ProjetoProdutosSquadra\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\guilh\Desktop\Squadra_Produtos\api_ProjetoProdutosSquadra\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\guilh\Desktop\Squadra_Produtos\api_ProjetoProdutosSquadra\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\guilh\Desktop\Squadra_Produtos\api_ProjetoProdutosSquadra\bin\Debug\net8.0\api_ProjetoProdutosSquadra.xml
+C:\Users\guilh\Desktop\Squadra_Produtos\api_ProjetoProdutosSquadra\obj\Debug\net8.0\api_ProjetoProdutosSquadra.xml

@@ -45,23 +45,7 @@ namespace api_ProjetoProdutosSquadra.Repositories
 
         public List<Categoria> Listar()
         {
-            var categorias = _produtosContext.Categoria
-                 .Select(c => new Categoria
-                 {
-                     IdCategoria = c.IdCategoria,
-                     Tipo = c.Tipo,
-                     Produtos = c.Produtos.Select(p => new Produto
-                     {
-                         IdProduto = p.IdProduto,
-                         Nome = p.Nome,
-                         Preco = p.Preco,
-                         Descricao = p.Descricao,
-                         QuantidadeEstoque = p.QuantidadeEstoque,
-                         Status = p.Status
-                     }).ToList()
-
-
-                 }).ToList();
+            var categorias = _produtosContext.Categoria.ToList();
 
             return categorias;
         }

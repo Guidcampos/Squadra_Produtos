@@ -19,8 +19,12 @@ namespace api_ProjetoProdutosSquadra.Controllers
             _usuarioRepository = usuarioRepository;
         }
 
+        /// <summary>
+        /// Rota para listar todos os usuarios, apenas para leitura e fins didaticos *TODOS* tem acesso
+        /// </summary>
+        /// <returns>Lista de usuarios</returns>
         [HttpGet("ListarUsuarios")]
-        [Authorize(Roles = "Funcionario, Gerente")]
+        [Authorize]
         public IActionResult ListarTodos()
         {
             try
@@ -33,6 +37,11 @@ namespace api_ProjetoProdutosSquadra.Controllers
             }
         }
 
+        /// <summary>
+        /// Rota de login, usada para gerar o token para aplicação
+        /// </summary>
+        /// <param name="usuario"> Email e Senha do usuario</param>
+        /// <returns>Token</returns>
         [HttpPost("Login")]
         public IActionResult Logar(UsuarioLogin usuario)
         {

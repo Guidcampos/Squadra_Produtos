@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api_ProjetoProdutosSquadra</name>
+    </assembly>
+    <members>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.AuthController.ListarTodos">
+            <summary>
+            Rota para listar todos os usuarios, apenas para leitura e fins didaticos *TODOS* tem acesso
+            </summary>
+            <returns>Lista de usuarios</returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.AuthController.Logar(api_ProjetoProdutosSquadra.ViewModels.UsuarioLogin)">
+            <summary>
+            Rota de login, usada para gerar o token para aplicação
+            </summary>
+            <param name="usuario"> Email e Senha do usuario</param>
+            <returns>Token</returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.CategoriaController.Listar">
+            <summary>
+            Rota para listar as CATEGORIAS de produtos da aplicação, *TODOS* tem acesso!
+            </summary>
+            <returns>Categorias</returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.CategoriaController.Cadastrar(api_ProjetoProdutosSquadra.Domains.Categoria)">
+            <summary>
+            Rota para CADASTRO DE CATEGORIA, apenas o *GERENTE* tem acesso!
+            </summary>
+            <param name="categoria">A aplicação espera um TIPO de categoria somente!</param>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.CategoriaController.Deletar(System.Int32)">
+            <summary>
+            Rota para DELETAR CATEGORIA, apenas o *GERENTE* tem acesso! 
+            </summary>
+            <param name="id">id da categoria a ser deletada</param>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.ProdutosController.ListarTodos">
+            <summary>
+            Rota para listar todos os produtos da aplicação, *TODOS* tem acesso!
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.ProdutosController.ListarEmEstoque">
+            <summary>
+            Rota para listar apenas PRODUTOS EM ESTOQUE, *TODOS* tem acesso! 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.ProdutosController.BuscarPorId(System.Int32)">
+            <summary>
+            Rota para listar um PRODUTO PELO ID, *TODOS* tem acesso! 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.ProdutosController.CadastrarProduto(api_ProjetoProdutosSquadra.Domains.Produto)">
+            <summary>
+            Rota para CADASTRO DE PRODUTO, apenas o *GERENTE* tem acesso!
+            </summary>
+            <param name="produto">a aplicação espera: Nome, Descricao, Preco e o IdCategoria </param>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.ProdutosController.DeletarProduto(System.Int32)">
+            <summary>
+            Rota para DELETAR UM PRODUTO, apenas o *GERENTE* tem acesso!
+            </summary>
+            <param name="id">A aplicação espera um id do produto a ser deletado</param>
+            <returns></returns>
+        </member>
+        <member name="M:api_ProjetoProdutosSquadra.Controllers.ProdutosController.AlterarEstoque(System.Int32,System.Int32)">
+            <summary>
+            Rota para ALTERAR O ESTOQUE DE UM PRODUTO, apenas o *GERENTE E FUNCIONARIO* tem acesso! 
+            </summary>
+            <param name="id">Id do produto a ser alterado</param>
+            <param name="novaQuantidade">A nova quantidade do produto</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

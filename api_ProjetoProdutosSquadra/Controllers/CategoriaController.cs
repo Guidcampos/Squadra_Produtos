@@ -1,6 +1,7 @@
 ﻿using api_ProjetoProdutosSquadra.Domains;
 using api_ProjetoProdutosSquadra.Interface;
 using api_ProjetoProdutosSquadra.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,7 +19,13 @@ namespace api_ProjetoProdutosSquadra.Controllers
         }
 
 
+        /// <summary>
+        /// Rota para listar as CATEGORIAS de produtos da aplicação, *TODOS* tem acesso!
+        /// </summary>
+        /// <returns>Categorias</returns>
         [HttpGet("ListarTodas")]
+        [Authorize]
+
         public IActionResult Listar()
         {
             try
@@ -32,7 +39,13 @@ namespace api_ProjetoProdutosSquadra.Controllers
             }
         }
 
+        /// <summary>
+        /// Rota para CADASTRO DE CATEGORIA, apenas o *GERENTE* tem acesso!
+        /// </summary>
+        /// <param name="categoria">A aplicação espera um TIPO de categoria somente!</param>
+        /// <returns></returns>
         [HttpPost("Cadastrar")]
+        [Authorize(Roles = "Gerente")]
         public IActionResult Cadastrar(Categoria categoria)
         {
             try
@@ -46,7 +59,13 @@ namespace api_ProjetoProdutosSquadra.Controllers
             }
         }
 
+        /// <summary>
+        /// Rota para DELETAR CATEGORIA, apenas o *GERENTE* tem acesso! 
+        /// </summary>
+        /// <param name="id">id da categoria a ser deletada</param>
+        /// <returns></returns>
         [HttpDelete("Deletar")]
+        [Authorize(Roles = "Gerente")]
         public IActionResult Deletar(int id)
         {
             try

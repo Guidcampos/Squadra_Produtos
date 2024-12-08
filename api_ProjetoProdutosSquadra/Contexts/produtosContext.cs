@@ -25,7 +25,7 @@ public partial class produtosContext : DbContext
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Data Source=NoteGuilherme\\SQLEXPRESS; initial catalog=SquadraProdutos; user id = sa; password = Senai@134; TrustServerCertificate=true;");
+        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\guilh\\Desktop\\Squadra_Produtos\\api_ProjetoProdutosSquadra\\Database\\SquadraProdutos.mdf;Integrated Security=True;Connect Timeout=30");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

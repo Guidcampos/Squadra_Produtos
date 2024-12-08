@@ -31,6 +31,12 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 
+    //Comentarios
+    var xmlFile = $"{System.AppDomain.CurrentDomain.FriendlyName}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    options.IncludeXmlComments(xmlPath);
+    options.IgnoreObsoleteProperties();
+
 
 
     //Usando a autenticaçao no Swagger

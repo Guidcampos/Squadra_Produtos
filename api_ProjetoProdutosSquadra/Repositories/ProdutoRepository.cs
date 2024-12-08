@@ -30,7 +30,7 @@ namespace api_ProjetoProdutosSquadra.Repositories
             }
             else
             {
-                throw new Exception("Usuário não encontrado!");           
+                throw new Exception("Produto não encontrado!");           
             }
 
         }
@@ -61,7 +61,7 @@ namespace api_ProjetoProdutosSquadra.Repositories
                 return produtoBuscado;
             }
 
-             throw new Exception("Usuário não encontrado!");
+             throw new Exception("Produto não encontrado!");
         }
 
         public void Cadastrar(Produto produto)
@@ -76,14 +76,14 @@ namespace api_ProjetoProdutosSquadra.Repositories
             if (categoria == null)
             {
                 throw new Exception("Categoria não encontrada");
-            } 
+            }
             if (produtoBuscado != null)
             {
                 throw new Exception("Produto já existe");
             }
-                produto.Status = produto.QuantidadeEstoque == 0 ? "Indisponivel" : "Em estoque";
-                _produtosContext.Produtos.Add(produto);
-                _produtosContext.SaveChanges();
+            produto.Status = produto.QuantidadeEstoque == 0 ? "Indisponivel" : "Em estoque";
+            _produtosContext.Produtos.Add(produto);
+            _produtosContext.SaveChanges();
         }
 
         public void Deletar(int id)
@@ -96,7 +96,7 @@ namespace api_ProjetoProdutosSquadra.Repositories
             }
             else
             {
-                throw new Exception("Usuário não encontrado!");
+                throw new Exception("Produto não encontrado!");
             }
 
         }
