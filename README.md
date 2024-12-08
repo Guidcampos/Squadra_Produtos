@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Concluído-green)  
 
 ## Sumário  
-1. [Descrição do Desafio](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#descri%C3%A7%C3%A3o-do-desafio)
+1. [Descrição do Desafio](#descri%C3%A7%C3%A3o-do-desafio)
 2. [Como rodar o projeto](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#como-rodar-o-projeto)
 3. [Banco de Dados](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#banco-de-dados)
 4. [Endpoints](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#endpoints)
@@ -11,8 +11,8 @@
    - [Categorias](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#categorias)  
    - [Produtos](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#produtos)
 5. [Exemplos de Requisição](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#exemplos-de-requisi%C3%A7%C3%A3o)
-6. [Tecnologias Utilizadas](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#6-tecnologias-utilizadas)
-7. [Agradecimentos](https://github.com/Guidcampos/Squadra_Produtos/edit/main/README.md#agradecimentos)   
+6. [Tecnologias Utilizadas](README.md#6-tecnologias-utilizadas)
+7. [Agradecimentos](#agradecimentos)   
 
 ---
 
