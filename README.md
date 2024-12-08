@@ -110,6 +110,18 @@ O script para criação do banco está disponível no repositório:
   "senha": "gerente123"
 }
 ```
+```json
+{
+  "email": "funcionario@funcionario.com",
+  "senha": "funcionario123"
+}
+```
+```json
+{
+  "email": "cliente@cliente.com",
+  "senha": "cliente123"
+}
+```
 
 **Response:**
 
